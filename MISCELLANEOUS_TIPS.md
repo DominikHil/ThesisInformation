@@ -32,7 +32,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 This should create `id_ed25519` and `id_ed25519.pub` in `~/.ssh`. You can show the public key using
 
 ```bash
-cat id_ed25519.pub
+cat ~/.ssh/id_ed25519.pub
 ```
 
 
