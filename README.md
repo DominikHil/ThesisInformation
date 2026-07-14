@@ -36,39 +36,30 @@ Send me a quick message before you come, so we can hand things in together.
 ## Workplace
 We can provide you with a workplace in the student room at our chair. This includes a PC with good Hardware that we will set up for your use for your thesis. However, you should only use this if you will work some amount of time in person at our chair. If you plan to work from home most of the time anyways, please do not block a workplace for other students. 
 
-## Compute Clusters
+### Compute Clusters
 At our chair we have access to multiple compute clusters. You can get access to these, if you require larger amounts of compute. 
 
-
-### [TCML](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/kognitive-systeme/projects/tcml-cluster/)
+#### [TCML](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/kognitive-systeme/projects/tcml-cluster/)
 This is a shared compute cluster administrated by our chair. It allows efficient training of medium-sized models (e.g. ResNet-152).
 
-### [ML Cloud](https://portal.mlcloud.uni-tuebingen.de/mlcloud-pages/news)
+#### [ML Cloud](https://portal.mlcloud.uni-tuebingen.de/mlcloud-pages/news)
 This is the shared ML Cloud cluster of the University of Tuebingen. Here, large amounts of compute are available, in particular nodes with H100 GPUs with up to 80GB VRAM, allowing training of very large models. However access times might not be ideal due to queueing.
 
-
-### Avalon (TODO)
+#### Avalon (TODO)
 These are two PCs with 8xRTX3090 and 8xA5000 respectively for direct compute access, managed by our chair. 
 
-General FAQ:
+<!-- General FAQ:
 - Environments: `/data/<username>/conda_envs`. In general, `/data/<username>` is where large things should go.
 - Repositories can typically live under `/home`. But if you create large checkpoints, you may want them on `/data`.
-  - Note: Hugging Face caches often go to `$HOME/.cache` regardless of repo location. A potential solution is to symlink `~/.cache` to `/data/<username>` (just a first idea).
-
-
+  - Note: Hugging Face caches often go to `$HOME/.cache` regardless of repo location. A potential solution is to symlink `~/.cache` to `/data/<username>` (just a first idea). -->
 
 ## Supervision
 - We typically meet weekly at most. Depending on preference and progress, we can meet less often.
 - Please prepare a short update for meetings: what you did, what you plan to do next, and (most importantly) questions. This can be notes or a small slide deck.
 - We use Discord to communicate within the group. You will get an invite link, and we will create a channel for your thesis. Please contact me sooner rather than later via Discord if you have questions (I usually reply quickly).
-- In an early meeting you should create a planned timeline for the whole project.
+- In an early meeting you should create a **planned timeline for the whole project**.
 
-## General Recommendations
-
-### Note-taking
-Keep notes of what you have done and your progress. This makes it easier to estimate progress and will make writing at the end go more smoothly. Some people like to use Kanban/Trello/Obsidian/etc. Personally, I use a simple text/Markdown file and tag entries (LEARNING, TODO, FINDING, RESULT, ...).
-
-### Writing the thesis
+## Writing the thesis
 You should follow general academic writing tips, e.g.:
 - Use active voice
 - Stick to a consistent tense
@@ -84,27 +75,29 @@ Your thesis should roughly follow this outline (deviations are fine if you have 
 6. Discussion
 7. Conclusion and Future Work
 
-**Literature review:** Use search engines like [Google Scholar](https://scholar.google.com/) or [Semantic Scholar](https://www.semanticscholar.org/). **Introductory resources on how to read papers:** [How To Read A Paper (by S. Keshav)](https://web.stanford.edu/class/cs114/reading-keshav.pdf) and [Reading Research Papers by Andrew Ng](https://youtu.be/733m6qBH-jI)
+- **Literature review:** Use search engines like [Google Scholar](https://scholar.google.com/) or [Semantic Scholar](https://www.semanticscholar.org/).
+- **Introductory resources on how to read papers:** [How To Read A Paper (by S. Keshav)](https://web.stanford.edu/class/cs114/reading-keshav.pdf) and [Reading Research Papers by Andrew Ng](https://youtu.be/733m6qBH-jI)
 
-### Formatting Basics
+### Format Requirements
 - LaTeX templates can be found in [Documents](Documents)
+- **The written text should be roughly 30-60 pages for a Bachelors Thesis or 40-70 pages for a Masters Thesis**
+- **The front page needs to match the one in the template above**
+- **The printed thesis needs to be bound with "Schwarze Klebebindung", with a transparent front and a black back.**
+- **You are required to append and sign the `Erklärung Abschlussarbeit (PDF)` found at [Informationen und Formulare](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/studium/studierende/downloads/informationen-und-formulare/).** I generally recommend selecting `3.2` and `3.3`. 
 - Figures should be legible (large enough text, sensible colors, ...). If possible, store figures as PDF (e.g., export from matplotlib as PDF). For consistent plotting you might want to use the [tueplots](https://github.com/pnkraemer/tueplots) library.
 - Every figure, table, and pseudo-code you add should be mentioned and cited in the text.
 - If you make claims, back them up with scientific literature (papers) or experimental results.
 - Captions (the text under figures) should be self-contained.
 - Citations should follow a consistent citation style (LaTeX + BibTeX).
-- You are required to append and sign the `Erklärung Abschlussarbeit (PDF)` found at [Informationen und Formulare](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/studium/studierende/downloads/informationen-und-formulare/). I generally recommend selecting `3.2` and `3.3`. 
-
 
 ### Handing in the Thesis
-Please refer to [Wo und wie gebe ich meine Bachelor- oder Masterarbeit ab?](https://uni-tuebingen.de/de/268383#c2073306) for specific instructions on handing in your thesis. 
-Additionally you need to hand in a printed version of your thesis with "Schwarze Klebebindung" since professor generally requires this. 
+Please refer to [Wo und wie gebe ich meine Bachelor- oder Masterarbeit ab?](https://uni-tuebingen.de/de/268383#c2073306) for specific instructions on handing in your thesis. **Most importantly, you need to hand in the pdf of your Thesis to your respective Prüfungssekretariat by mail before your deadline.** Additionally you need to hand in a printed version of your thesis with "Schwarze Klebebindung" since professor generally requires this. 
 
 ### Printing
 You may print your thesis on one of our printers for free. You then only need to bind it at a copy shop ("Schwarze Klebebindung" is required).
 
-### Thesis Presentation
-Roughly two weeks to one month after the formal submission of your written thesis, you will have your thesis presentation. To schedule this, you will need to find a date that works for you and all the examiners. The thesis presentation itself should be 30 minutes long, followed by approximately 15–30 minutes of questions. Sometimes questions are asked during the presentation; in that case, the pure presentation time is, of course, extended.
+## Thesis Presentation
+Roughly two weeks to one month after the formal submission of your written thesis, you will have your thesis presentation. To schedule this, you will need to find a date that works for you and all the examiners. The thesis presentation itself should be 30 minutes long, followed by approximately 15–30 minutes of questions, or a live demo. Sometimes questions are asked during the presentation; in that case, the pure presentation time is, of course, extended.
 - Make sure that the amount of content fits within the given time. A good rule of thumb is that you can cover at most one slide per minute. Often, less is better (I would recommend around 23 slides for 30 minutes), so that the talk does not become hectic.
 - You should present in a natural and engaging way. Do not simply read from your notes, and avoid monotonously reciting the content from memory.
 - Include an introduction in your presentation so that people who are not familiar with your specific topic can still follow the talk.
@@ -114,7 +107,12 @@ Roughly two weeks to one month after the formal submission of your written thesi
 - In any case, you should rehearse the presentation at least once on your own to check the timing.
 - If your topic allows it, you may include a demo after the formal presentation. A good demo is a big plus.
 
-## Tool Recommendations
+## General Recommendations
+
+### Note-taking
+Keep notes of what you have done and your progress. This makes it easier to estimate progress and will make writing at the end go more smoothly. Some people like to use Kanban/Trello/Obsidian/etc. Personally, I use a simple text/Markdown file and tag entries (LEARNING, TODO, FINDING, RESULT, ...).
+
+### Tool Recommendations
 - [Git](https://git-scm.com/): robust versioning (GitHub or our [GitLab](https://gitlab.cs.uni-tuebingen.de/)). If you are new to Git: [Git Guide](https://github.com/git-guides), [Git tutorial](https://git-scm.com/docs/gittutorial)
 - [Visual Studio Code](https://code.visualstudio.com): simple and highly customizable (however you can use any IDE you prefer)
 - [Docker](https://www.docker.com/): stable, independent environments. Consider a [Docker development environment workflow](https://learn.microsoft.com/en-us/training/modules/use-docker-container-dev-env-vs-code/). See also: [TUTORIAL_DOCKER.md](TUTORIAL_DOCKER.md)
@@ -122,11 +120,11 @@ Roughly two weeks to one month after the formal submission of your written thesi
 - [LaTeX](https://www.latex-project.org/): A typesetting system allowing precise creation of your written thesis, taking many things like manually managing citations off your mind. I personally like to use the [texlive](https://www.tug.org/texlive/) distribution which can be installed on ubuntu using `sudo apt install texlive-full`, or on windows following the [Windows Installation Instructions](https://tug.org/texlive/windows.html) and the [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) VSCode extension. 
 
 
-## AI Assisted Coding
+### AI Assisted Coding
 
 Generative AI tools are becoming increasingly important for modern software development. Your thesis presents an excellent opportunity to explore these technologies and integrate them into your workflow. However, given the rapid pace of development in this field, strategies and tools evolve quickly, so these tips should be taken as my personal opinion.
 
-### General Guidelines
+#### General Guidelines
 - **Avoid "Vibe-coding"**: You will quickly find that pure "vibe-coding" (generating code without true understanding and oversight) will not work well in solving actually complicated problems and will produce extremely large amounts of unwieldy code and slow you down immensely. **You are solely responsible for the code you create and commit!**
 - **IDE-based Workflow**: I personally like to use an IDE-based workflow that allows you to review proposed changes (diffs) meticulously. I recommend [GitHub Copilot Pro](https://education.github.com/pack) which is free for students and provides access to state-of-the-art models (e.g., GPT-5.3, Claude Sonnet/Opus, Gemini 3).
 - **CLI Tools**: You can also try cli-based systems like [OpenAI Codex](https://openai.com/codex/), [Gemini-CLI](https://github.com/google-gemini/gemini-cli), and [claude-code](https://github.com/anthropics/claude-code) which often work better for "vibe-coding" style development, since the models are finetuned to work in these specific environments. However, they give me too little precise control (e.g. diff views) for high-quality production grade code, or code which will live for a longer time. 
@@ -139,20 +137,19 @@ Generative AI tools are becoming increasingly important for modern software deve
 - Put great effort into the high-level design / architecture (this is where models are lacking and technical debt is acquired)
 - Treat vibe-coded code as discarable and do not waste time trying to fix it. Trying to reason with AI models an exercise in futility.
 
-### Model Recommendations
+#### Model Recommendations
 - **General Tasks**: **Gemini 3 Flash** This is my go-to model for almost all daily tasks, since it is fast, cheap and quite capable.
 - **In-depth Coding**: **Claude Sonnet** is excellent for coding (e.g., refactoring), while **Claude Opus** has strong high-level abstraction and planning capabilities but is more expensive. For an initial draft of a vibe-coded project I would highly recommend to start with **Claude Opus** and then use cheaper models for the refinement.
 - **High Level Planning and knowledge**: I find that **GPT-5.3** has the best knowledge of software libraries, while it is lacking in coding in comparison to **Claude Sonnet**. **Gemini 3 Pro** is somewhere in the middle between these two models in both regards.
 - **GPT-(...)-Codex** sadly does not work well for me in VSCode, however this model is reported to be very good in OpenAI-Codex.
 
-### Uses where I find AI assisted coding tools highly useful:
+#### Uses where I find AI assisted coding tools highly useful:
 - **Creating initial prototypes** which will not be iterated on further. Here the AI allows you to find whether something is in principle feasible or useful. 
 - **Implementing changes from precise human specifications** under strict oversight for "production-grade" codebases. That is, save typing effort. 
 - **Iterating in an agentic tool call fashion** to find a prototype or to fix a specific problem (e.g. build issues).
 - **As a sparring partner** to examine or explain code or discuss potential options. However, anything needs to be verified with your own intelligence. If you really want to understand some code, you need to read it yourself, the AI only provides you with an initial lay of the land.
 - **to clean up written text, e.g. documentation or academic writing** (but with high amounts of oversight).
 - **For refactoring, to implement style guides or type hints.**
-
 
 #### Uses where AI assisted coding does not work for me:
 - To implement critical code.
