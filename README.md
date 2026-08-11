@@ -19,10 +19,10 @@ After you have filled out the two documents, come to the chair and bring both fo
      - one for yourself
 4. Hand in the original signed **Anmeldung B.Sc./M.Sc Abschlussarbeit (PDF)** to the Prüfungssekretariat.
 
-** Send me a quick message before you come, so we can hand things in together. **
+**Send me a quick message before you come, so we can hand things in together.**
 
 ## Workplace
-We can provide you with a workplace in the student room at our chair. This includes a desk with PC that we will set up for your use for your thesis. However, you should only use this if you will work some amount of time in person at our chair. If you plan to work from home most of the time anyways, please do not block a workplace for other students. ** Please tell us if you don't use your workplace so that we can reassign it! ** 
+We can provide you with a workplace in the student room at our chair. This includes a desk with PC that we will set up for your use for your thesis. However, you should only use this if you will work some amount of time in person at our chair. If you plan to work from home most of the time anyways, please do not block a workplace for other students. **Please tell us if you don't use your workplace so that we can reassign it!** 
 
 ### Compute Clusters
 At our chair we have access to multiple compute clusters. You can get access to these, if you require larger amounts of compute. 
@@ -80,7 +80,11 @@ Your thesis should roughly follow this outline (deviations are fine if you have 
 - Citations should follow a consistent citation style (LaTeX + BibTeX).
 
 ### Handing in the Thesis
-Please refer to [Wo und wie gebe ich meine Bachelor- oder Masterarbeit ab?](https://uni-tuebingen.de/de/268383#c2073306) for specific instructions on handing in your thesis. **Most importantly, you need to hand in the pdf of your Thesis to your respective Prüfungssekretariat by mail before your deadline.** Additionally, you need to hand in a printed version of your thesis with "Schwarze Klebebindung" since professor generally requires this.
+- Please refer to [Wo und wie gebe ich meine Bachelor- oder Masterarbeit ab?](https://uni-tuebingen.de/de/268383#c2073306) for specific instructions on handing in your thesis.
+- **Most importantly, you need to hand in the pdf of your Thesis to your respective Prüfungssekretariat by mail before your deadline.**
+-  Additionally, you need to hand in two printed versions (one for the professor and one for me) of your thesis with "Schwarze Klebebindung" since professor generally requires this.
+-  The deadline for Prüfungssekretariat is binding. **Make sure you know what you should submit to them and when.**
+-  The printed versions for professor and me can be provided in the week after your submission deadline. **Clarify with us first!** 
 
 ### Printing
 You may print your thesis on one of our printers for free. You then only need to bind it at a copy shop ("Schwarze Klebebindung" is required, don't forget the cover & back).
