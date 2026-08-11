@@ -6,7 +6,7 @@ Based on: https://github.com/David0tt/ThesisInformation
 To actually register and start your thesis, you need two forms:
 
 - **Anmeldung B.Sc./M.Sc Abschlussarbeit (PDF)**: for the Prüfungssekretariat (download the `"Anmeldung B.Sc./M.Sc Abschlussarbeit (PDF)"`  from [Informationen und Formulare](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/studium/studierende/downloads/informationen-und-formulare/))
-- **New Member Registration Form**: to register with our chair (PC account, keys, ...): [NewMemberRegistrationForm](Documents/new_member_v2.14.odt); [guide](Documents/new_member_ v2.13.png)) on what you need to fill out
+- **New Member Registration Form**: to register with our chair (PC account, keys, ...): [NewMemberRegistrationForm](Documents/new_member_v2.14.odt); [guide](Documents/new_member_v2.13.png)) on what you need to fill out (ignore the version missmatch)
 
 ### Hand-in / Signatures
 After you have filled out the two documents, come to the chair and bring both:
