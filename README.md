@@ -9,7 +9,7 @@ To actually register and start your thesis, you need two forms:
 - **New Member Registration Form**: to register with our chair (PC account, keys, ...): [NewMemberRegistrationForm](Documents/new_member_v2.14.odt); [guide](Documents/new_member_v2.13.png)) on what you need to fill out (ignore the version missmatch)
 
 ### Hand-in / Signatures
-After you have filled out the two documents, come to the chair and bring both:
+After you have filled out the two documents, come to the chair and bring both forms:
 
 1. **Anmeldung B.Sc./M.Sc Abschlussarbeit (PDF)** has to be signed by the professor. If you are registering a M.Sc. Thesis, you also need the signature of your second examiner.
 2. **New Member Registration Form** is given to our IT-Administrator.
