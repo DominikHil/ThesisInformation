@@ -72,7 +72,7 @@ Your thesis should roughly follow this outline (deviations are fine if you have 
 - **The written text should be roughly 30-60 pages for a Bachelors Thesis or 40-70 pages for a Masters Thesis**
 - **The front page needs to match the one in the template above**
 - **The printed thesis needs to be bound with "Schwarze Klebebindung", with a transparent front and a black back.**
-- **You are required to append and sign the `Erklärung Abschlussarbeit (PDF)` found at [Informationen und Formulare](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/studium/studierende/downloads/informationen-und-formulare/).** I generally recommend selecting `3.2` and `3.3`. 
+- **You are required to append and sign the `Erklärung Abschlussarbeit (PDF)` found at [Informationen und Formulare](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/studium/studierende/downloads/informationen-und-formulare/).** I generally recommend selecting `3.2` and `3.3`, at the moment (Okt. 2026) these do not require additional signatures other than yours.
 - Figures should be legible (large enough text, sensible colors, ...). If possible, store figures as PDF (e.g., export from matplotlib as PDF). For consistent plotting you might want to use the [tueplots](https://github.com/pnkraemer/tueplots) library.
 - Every figure, table, and pseudo-code you add should be mentioned and cited in the text.
 - If you make claims, back them up with scientific literature (papers) or experimental results.
