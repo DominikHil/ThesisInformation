@@ -48,6 +48,11 @@ This is the shared ML Cloud cluster of the University of Tuebingen with large am
 - We use Discord to communicate within the group (email me to get an invite!). Please contact me sooner rather than later via Discord if you have questions (I usually reply quickly).
 - In an early meeting you should create a **planned timeline for the whole project**.
 
+## How to get accustomed with the research landscape
+
+- **Literature review:** Use search engines like [Google Scholar](https://scholar.google.com/) or [Semantic Scholar](https://www.semanticscholar.org/).
+- **Introductory resources on how to read papers:** [How To Read A Paper (by S. Keshav)](https://web.stanford.edu/class/cs114/reading-keshav.pdf) and [Reading Research Papers by Andrew Ng](https://youtu.be/733m6qBH-jI)
+
 ## Writing the thesis
 You should follow general academic writing tips, e.g.:
 - Use active voice
@@ -63,9 +68,6 @@ Your thesis should roughly follow this outline (deviations are fine if you have 
 5. Results
 6. Discussion
 7. Conclusion and Future Work
-
-- **Literature review:** Use search engines like [Google Scholar](https://scholar.google.com/) or [Semantic Scholar](https://www.semanticscholar.org/).
-- **Introductory resources on how to read papers:** [How To Read A Paper (by S. Keshav)](https://web.stanford.edu/class/cs114/reading-keshav.pdf) and [Reading Research Papers by Andrew Ng](https://youtu.be/733m6qBH-jI)
 
 ### Format Requirements
 - You should use the Latex template of our chair (I'll send it to you; remind me!).
